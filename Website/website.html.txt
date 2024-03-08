@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css"
+    </head>
+        <body>
+            
+        <form>
+        <h3>Lomake</h3>
+            <label for="etunimi">etunimi: </label>
+            <input type="text" id="etunimi" name="etunimi">    
+    <label for="sukunimi">sukunimi: </label>
+            <input type="text" id="sukunimi" name="sukunimi">   
+        
+        </br></br/  
+        <p>mikä on sukupuolesi?</p>
+            <input type="radio" id="mies" name="Sukupuoli" value="mies"> 
+            <label for="mies">mies</label>
+            <input type="radio" id="nainen" name"Sukupuoli" value="nainen">
+            <label for="nainen">nainen</label>
+            <input type=radio" id="muu" name="Sukupuoli" value="muu">
+            <label for"muu">muu</label></br></br/ 
+            <select name="ikaluokka" size="1">
+                <option value="lapsi">0-12 vuotta</option>
+                <option value="nuori">13-35 vuotta</option>
+                <option value="aikuinen">36-65 vuotta</option>
+                <option value="ikaihminen">65- vuotta</option>
+            </select>
+            </br></br/
+
+
+            <input type="submit" value="Lähetä!">
+
+            </form>
+        </body>
+
+
+
+</html>
